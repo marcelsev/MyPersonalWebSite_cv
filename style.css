@@ -1,9 +1,14 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
 }
-.tittle{
+.rounded-border {
+	border-radius: 50%;
+	border: 22px solid rgb(23, 39, 216); /* Ajusta el grosor del borde aquí */
+  }
+  
+/* .tittle{
     animation: myAnim 1s ease 0s 1 normal forwards;
-}
+} */
 @keyframes myAnim {
 	0% {
 		opacity: 0;
