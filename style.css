@@ -5,10 +5,58 @@ body{
 	border-radius: 50%;
 	border: 22px solid rgb(23, 39, 216); /* Ajusta el grosor del borde aquí */
   }
-  
+.carousel-item img {
+	width: 700px; /* Ajusta el ancho deseado */
+	height: 500px; /* Ajusta la altura deseada */
+	object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+  }
 /* .tittle{
     animation: myAnim 1s ease 0s 1 normal forwards;
 } */
+
+.custom-carousel-control-prev-icon,
+.custom-carousel-control-next-icon {
+  background-color: rgb(109, 176, 226); /* Cambia esto al color que desees */
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.custom-carousel-control-prev-icon::after {
+  content: '';
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-top: .5rem solid white;
+  border-right: .5rem solid white;
+  transform: rotate(-135deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.75rem;
+  margin-left: -0.75rem;
+}
+.custom-carousel-control-next-icon::after {
+  content: '';
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-top: .5rem solid white;
+  border-right: .5rem solid white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.75rem;
+  margin-left: -0.75rem;
+}
+.umbra{
+box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.primer{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  }
 @keyframes myAnim {
 	0% {
 		opacity: 0;
