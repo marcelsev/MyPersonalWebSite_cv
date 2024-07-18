@@ -70,3 +70,26 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     }
   }
 
+  .language-card {
+    transition: transform 0.3s;
+    margin-bottom: 1rem;
+  }
+  .language-card:hover {
+    transform: scale(1.05);
+  }
+  .language-icon {
+    font-size: 3rem;
+    color: #007bff;
+  }
+  .capacity-card {
+    transition: transform 0.3s;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .capacity-card:hover {
+    transform: scale(1.05);
+  }
+  .capacity-icon {
+    font-size: 3rem;
+    color: #007bff;
+  }
