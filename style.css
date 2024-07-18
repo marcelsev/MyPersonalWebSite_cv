@@ -56,7 +56,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .primer{
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-  flex: 1 1 100%;
+  
   }
 
 
@@ -65,7 +65,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     margin: 0.5rem;
   }
   @media (max-width: 768px) {
-    .primer, .card-custom {
+     .card-custom {
       flex: 1 1 100%;
     }
   }
