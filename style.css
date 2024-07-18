@@ -10,9 +10,17 @@ body{
 	height: 500px; 
 	object-fit: cover; 
   }
-/* .tittle{
-    animation: myAnim 1s ease 0s 1 normal forwards;
-} */
+
+  .custom-img {
+    max-width: 50%; 
+  }
+  @media (max-width: 768px) {
+    .cont-foto {
+      display: block;
+      flex-wrap: wrap; 
+    }
+  }
+
 
 .custom-carousel-control-prev-icon,
 .custom-carousel-control-next-icon {
