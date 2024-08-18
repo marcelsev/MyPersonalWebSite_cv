@@ -12,12 +12,15 @@ body{
   }
 
   .custom-img {
-    max-width: 50%; 
+    max-width: 35%; 
   }
   @media (max-width: 768px) {
     .cont-foto {
       display: block;
       flex-wrap: wrap; 
+    }
+    .custom-img{
+      max-width: 100%;
     }
   }
 
