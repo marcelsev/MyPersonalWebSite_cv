@@ -4,14 +4,27 @@ body{
 }
 .animated-header {
   opacity: 0;
-  transform: translateY(50px); /* Comienza 50px más abajo */
+  transform: translateY(50px); 
   animation: slideUp 1.5s ease-out forwards;
 }
 .animated-photo {
   opacity: 0;
   transform: translateY(50px);
   animation: slideUp 1.5s ease-out forwards;
-  animation-delay: 0.5s; /* La imagen aparecerá 0.5s después del nombre */
+  animation-delay: 0.5s; 
+}
+.block-animated{
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 1.5s ease-out forwards;
+  animation-delay: 0.5s; 
+}
+.metier{
+  font-family: 'Zen dots', sans-serif;
+  color: #2b72dc;
+}
+.colortittle{
+  color: #057bf9d5;
 }
 @keyframes slideUp {
   from {
